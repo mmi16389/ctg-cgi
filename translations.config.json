@@ -1,0 +1,10 @@
+{
+    "id": "1bEfZ1IYum_a0rmEBi1677l55vD53D8YojRummYMuiUk",
+    "output": [
+        {
+            "type": "ios-strings",
+            "dest": "./GCI/Ressources/%s.lproj",
+            "filename": "Localizable.strings"
+        }
+    ]
+}

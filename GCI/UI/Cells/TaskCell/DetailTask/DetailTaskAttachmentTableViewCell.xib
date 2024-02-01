@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DetailTaskAttachmentCell" rowHeight="112" id="KGk-i7-Jjw" customClass="DetailTaskAttachmentTableViewCell" customModule="GCI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="111.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eva-5V-oTh">
+                        <rect key="frame" x="58" y="0.0" width="291" height="111.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7jk-ul-beJ">
+                        <rect key="frame" x="58" y="16.5" width="78" height="78.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="7jk-ul-beJ" secondAttribute="height" multiplier="1:1" id="ChD-eZ-REk"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Ka3-du-gx9">
+                        <rect key="frame" x="58" y="46" width="20" height="20"/>
+                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7jk-ul-beJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="65K-3G-wY9"/>
+                    <constraint firstItem="Ka3-du-gx9" firstAttribute="leading" secondItem="eva-5V-oTh" secondAttribute="leading" id="8vL-zs-Nxc"/>
+                    <constraint firstItem="7jk-ul-beJ" firstAttribute="height" secondItem="eva-5V-oTh" secondAttribute="height" multiplier="0.7" id="BP3-WL-NDr"/>
+                    <constraint firstAttribute="trailing" secondItem="eva-5V-oTh" secondAttribute="trailing" constant="34" id="Dxi-KH-6KL"/>
+                    <constraint firstAttribute="bottom" secondItem="eva-5V-oTh" secondAttribute="bottom" id="Jlp-JD-C21"/>
+                    <constraint firstItem="eva-5V-oTh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ew5-kf-TKY"/>
+                    <constraint firstItem="Ka3-du-gx9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="n7C-hG-DRs"/>
+                    <constraint firstItem="eva-5V-oTh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="58" id="olR-8p-eO6"/>
+                    <constraint firstItem="7jk-ul-beJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="58" id="xyU-SS-H6I"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="constraintLeadingPDF" destination="xyU-SS-H6I" id="zXh-Sb-RvY"/>
+                <outlet property="constraitLeadingPhoto" destination="olR-8p-eO6" id="7SV-ko-ppg"/>
+                <outlet property="imgPdf" destination="7jk-ul-beJ" id="V64-hV-wqa"/>
+                <outlet property="imgPhoto" destination="eva-5V-oTh" id="kLa-9Q-b24"/>
+                <outlet property="indicator" destination="Ka3-du-gx9" id="fML-Xg-pRx"/>
+            </connections>
+            <point key="canvasLocation" x="177.536231884058" y="141.29464285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

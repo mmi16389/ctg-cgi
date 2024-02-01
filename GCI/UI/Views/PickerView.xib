@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QIt-ZF-5eO" customClass="PickerView" customModule="GCI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="147"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajouter un fichier bla bla " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C60-Lu-GId">
+                    <rect key="frame" x="11" y="19" width="138" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_add_file" translatesAutoresizingMaskIntoConstraints="NO" id="kNo-Wc-lMt">
+                    <rect key="frame" x="57.5" y="86" width="45" height="39"/>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qb3-Q9-YGH">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="147"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_pdf" translatesAutoresizingMaskIntoConstraints="NO" id="1Xd-2n-jPg">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="147"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeZ-70-2vl">
+                            <rect key="frame" x="114" y="8" width="38" height="42"/>
+                            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                            <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                            <state key="normal" image="ico_cross_filter"/>
+                            <connections>
+                                <action selector="btnDeleteContentTouched:" destination="QIt-ZF-5eO" eventType="touchUpInside" id="MOa-q1-PsK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="1Xd-2n-jPg" secondAttribute="trailing" id="7cc-y2-efO"/>
+                        <constraint firstItem="1Xd-2n-jPg" firstAttribute="leading" secondItem="Qb3-Q9-YGH" secondAttribute="leading" id="8NR-Ir-BRB"/>
+                        <constraint firstAttribute="bottom" secondItem="1Xd-2n-jPg" secondAttribute="bottom" id="EF9-ZP-3zM"/>
+                        <constraint firstItem="1Xd-2n-jPg" firstAttribute="top" secondItem="Qb3-Q9-YGH" secondAttribute="top" id="H2y-PS-oLJ"/>
+                        <constraint firstAttribute="trailing" secondItem="FeZ-70-2vl" secondAttribute="trailing" constant="8" id="Lmx-cr-nmi"/>
+                        <constraint firstItem="FeZ-70-2vl" firstAttribute="top" secondItem="Qb3-Q9-YGH" secondAttribute="top" constant="8" id="kAi-p2-ElJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Qb3-Q9-YGH" firstAttribute="leading" secondItem="QIt-ZF-5eO" secondAttribute="leading" id="DIq-ks-0qX"/>
+                <constraint firstAttribute="bottom" secondItem="kNo-Wc-lMt" secondAttribute="bottom" constant="22" id="GxB-n2-abD"/>
+                <constraint firstItem="C60-Lu-GId" firstAttribute="leading" secondItem="QIt-ZF-5eO" secondAttribute="leading" constant="11" id="Mii-dF-XVL"/>
+                <constraint firstAttribute="trailing" secondItem="Qb3-Q9-YGH" secondAttribute="trailing" id="TyA-m5-xBF"/>
+                <constraint firstAttribute="bottom" secondItem="kNo-Wc-lMt" secondAttribute="bottom" constant="22" id="VHH-aA-Dkb"/>
+                <constraint firstItem="Qb3-Q9-YGH" firstAttribute="top" secondItem="QIt-ZF-5eO" secondAttribute="top" id="WgX-Qx-dUC"/>
+                <constraint firstItem="kNo-Wc-lMt" firstAttribute="centerX" secondItem="QIt-ZF-5eO" secondAttribute="centerX" id="ZPR-zO-LBx"/>
+                <constraint firstItem="C60-Lu-GId" firstAttribute="top" secondItem="QIt-ZF-5eO" secondAttribute="top" constant="19" id="fWy-KA-EEy"/>
+                <constraint firstItem="kNo-Wc-lMt" firstAttribute="centerX" secondItem="QIt-ZF-5eO" secondAttribute="centerX" id="hRO-Es-40P"/>
+                <constraint firstAttribute="trailing" secondItem="C60-Lu-GId" secondAttribute="trailing" constant="11" id="hXw-TR-LEv"/>
+                <constraint firstAttribute="bottom" secondItem="Qb3-Q9-YGH" secondAttribute="bottom" id="tBy-RX-VAj"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnDeleteSelectedContent" destination="FeZ-70-2vl" id="YtS-nG-L2K"/>
+                <outlet property="imgIconPicker" destination="kNo-Wc-lMt" id="Pw7-R0-HCv"/>
+                <outlet property="imgSelectedContent" destination="1Xd-2n-jPg" id="xnD-Br-gvW"/>
+                <outlet property="lbltitle" destination="C60-Lu-GId" id="Zgm-kL-DbV"/>
+                <outlet property="viewSelectedContent" destination="Qb3-Q9-YGH" id="gNf-br-slC"/>
+                <outletCollection property="gestureRecognizers" destination="4VE-hp-bNs" appends="YES" id="CcE-bX-ePI"/>
+            </connections>
+            <point key="canvasLocation" x="266.66666666666669" y="-1437.3883928571429"/>
+        </view>
+        <tapGestureRecognizer id="4VE-hp-bNs">
+            <connections>
+                <action selector="pickerTouched:" destination="QIt-ZF-5eO" id="vjx-VW-udy"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="ico_add_file" width="45" height="39"/>
+        <image name="ico_cross_filter" width="18" height="18"/>
+        <image name="ico_pdf" width="46" height="46"/>
+    </resources>
+</document>

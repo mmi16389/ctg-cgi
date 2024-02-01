@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (5.8.1)
+  - AlamofireImage (4.3.0):
+    - Alamofire (~> 5.8)
+  - AppCenter (5.0.4):
+    - AppCenter/Analytics (= 5.0.4)
+    - AppCenter/Crashes (= 5.0.4)
+  - AppCenter/Analytics (5.0.4):
+    - AppCenter/Core
+  - AppCenter/Core (5.0.4)
+  - AppCenter/Crashes (5.0.4):
+    - AppCenter/Core
+  - ArcGIS-Runtime-SDK-iOS (100.4)
+  - AzureNotificationHubs-iOS (3.1.5)
+  - CoreStore (9.2.0)
+  - IQKeyboardManagerSwift (6.5.16)
+  - KeychainSwift (20.0.0)
+  - lottie-ios (4.3.3)
+  - ReachabilitySwift (5.0.0)
+  - SkyFloatingLabelTextField (4.0.0)
+  - SwiftLint (0.54.0)
+  - SwiftyJSON (5.0.1)
+  - VersionTrackerSwift (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.8.1)
+  - AlamofireImage (~> 4.3.0)
+  - AppCenter (~> 5.0.4)
+  - ArcGIS-Runtime-SDK-iOS (= 100.4)
+  - AzureNotificationHubs-iOS (= 3.1.5)
+  - CoreStore (~> 9.2.0)
+  - IQKeyboardManagerSwift (~> 6.5.16)
+  - KeychainSwift (~> 20.0.0)
+  - lottie-ios (~> 4.3.3)
+  - ReachabilitySwift (~> 5.0.0)
+  - SkyFloatingLabelTextField (~> 4.0.0)
+  - SwiftLint (~> 0.54)
+  - SwiftyJSON (~> 5.0.0)
+  - VersionTrackerSwift (~> 3.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AppCenter
+    - ArcGIS-Runtime-SDK-iOS
+    - AzureNotificationHubs-iOS
+    - CoreStore
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - lottie-ios
+    - ReachabilitySwift
+    - SkyFloatingLabelTextField
+    - SwiftLint
+    - SwiftyJSON
+    - VersionTrackerSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AlamofireImage: 843953fa97bee5f561cf05d83abd759e590b068d
+  AppCenter: 85c92db0759d2792a65eb61d6842d2e86611a49a
+  ArcGIS-Runtime-SDK-iOS: 3e3f7480fe2a3b0c094ed57977cab1482e81ec6f
+  AzureNotificationHubs-iOS: e5de62f44d7915a5cc3c5194ddc57cf2ee78873e
+  CoreStore: 6e7e2010ce7b8ad9cf7348c650020c3d7ea0afb2
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+  SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  VersionTrackerSwift: 1c7577058ef97424397551927473c4933d99f7df
+
+PODFILE CHECKSUM: 402998efae9282fa25715d1f9c12f09efd83e3bc
+
+COCOAPODS: 1.12.1
