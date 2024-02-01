@@ -1,0 +1,14 @@
+CLANG_ENABLE_MODULES = YES
+CLANG_ENABLE_OBJC_ARC = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage" "${PODS_CONFIGURATION_BUILD_DIR}/CoreStore" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainSwift" "${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift" "${PODS_CONFIGURATION_BUILD_DIR}/SkyFloatingLabelTextField" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/VersionTrackerSwift" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios" "${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple" "${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS" "${PODS_ROOT}/AzureNotificationHubs-iOS/WindowsAzureMessaging-SDK-Apple" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppCenter/Analytics" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppCenter/Core" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppCenter/Crashes" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AzureNotificationHubs-iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage/AlamofireImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CoreStore/CoreStore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainSwift/KeychainSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/Reachability.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VersionTrackerSwift/VersionTracker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers"
+LIBRARY_SEARCH_PATHS = $(inherited) $(SDKROOT)/usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"swiftCoreGraphics" -l"z" -framework "Alamofire" -framework "AlamofireImage" -framework "ArcGIS" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreStore" -framework "CoreTelephony" -framework "Foundation" -framework "IQKeyboardManagerSwift" -framework "KeychainSwift" -framework "Lottie" -framework "QuartzCore" -framework "Reachability" -framework "SkyFloatingLabelTextField" -framework "SwiftyJSON" -framework "SystemConfiguration" -framework "UIKit" -framework "VersionTracker" -weak_framework "UserNotifications"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

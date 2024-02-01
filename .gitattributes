@@ -1,0 +1,2 @@
+Pods/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS filter=lfs diff=lfs merge=lfs -text
+Pods filter=lfs diff=lfs merge=lfs -text
