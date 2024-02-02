@@ -3,86 +3,64 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>Capacitor.xcscheme</key>
+		<key>0ECF3D6BFCC08377AE23B027EE1D4371</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorApp.xcscheme</key>
+		<key>291499FE70301076C46663647D6398CF</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorCamera.xcscheme</key>
+		<key>400AE44335852A2D8D746557E21E8EB0</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorCommunityBarcodeScanner.xcscheme</key>
+		<key>5C415F33D02A6F89DB713EFB9D75A3FB</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorCordova.xcscheme</key>
+		<key>6307A6219BDF2F9E7395AFCF4674D713</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorDevice.xcscheme</key>
+		<key>935B0DD4F60B7C5522675282DF23C8CF</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorGeolocation.xcscheme</key>
+		<key>96E481B38FCD0337232020A4AC8546A6</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorNetwork.xcscheme</key>
+		<key>98C016A057FAEDD1CD09F30BD6212FED</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorSplashScreen.xcscheme</key>
+		<key>CB5770103B01C83F4A2086CA033FE710</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>CapacitorStorage.xcscheme</key>
+		<key>CD1DC9453990F586DD971B6EEF9C184C</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>9</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>Pods-App.xcscheme</key>
+		<key>E6FF9A6655DFB6DF00EB3BDAF0BC307E</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict/>
 </dict>
 </plist>
