@@ -1,0 +1,6 @@
+framework module CapacitorStorage {
+  umbrella header "CapacitorStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

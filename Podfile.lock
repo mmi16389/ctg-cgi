@@ -1,76 +1,70 @@
 PODS:
-  - Alamofire (5.8.1)
-  - AlamofireImage (4.3.0):
-    - Alamofire (~> 5.8)
-  - AppCenter (5.0.4):
-    - AppCenter/Analytics (= 5.0.4)
-    - AppCenter/Crashes (= 5.0.4)
-  - AppCenter/Analytics (5.0.4):
-    - AppCenter/Core
-  - AppCenter/Core (5.0.4)
-  - AppCenter/Crashes (5.0.4):
-    - AppCenter/Core
-  - ArcGIS-Runtime-SDK-iOS (100.4)
-  - AzureNotificationHubs-iOS (3.1.5)
-  - CoreStore (9.2.0)
-  - IQKeyboardManagerSwift (6.5.16)
-  - KeychainSwift (20.0.0)
-  - lottie-ios (4.3.3)
-  - ReachabilitySwift (5.0.0)
-  - SkyFloatingLabelTextField (4.0.0)
-  - SwiftLint (0.54.0)
-  - SwiftyJSON (5.0.1)
-  - VersionTrackerSwift (3.0.0)
+  - Capacitor (5.6.0):
+    - CapacitorCordova
+  - CapacitorApp (5.0.6):
+    - Capacitor
+  - CapacitorCamera (5.0.9):
+    - Capacitor
+  - CapacitorCommunityBarcodeScanner (4.0.1):
+    - Capacitor
+  - CapacitorCordova (5.6.0)
+  - CapacitorDevice (5.0.6):
+    - Capacitor
+  - CapacitorGeolocation (5.0.6):
+    - Capacitor
+  - CapacitorNetwork (5.0.6):
+    - Capacitor
+  - CapacitorSplashScreen (5.0.7):
+    - Capacitor
+  - CapacitorStorage (1.2.5):
+    - Capacitor
 
 DEPENDENCIES:
-  - Alamofire (~> 5.8.1)
-  - AlamofireImage (~> 4.3.0)
-  - AppCenter (~> 5.0.4)
-  - ArcGIS-Runtime-SDK-iOS (= 100.4)
-  - AzureNotificationHubs-iOS (= 3.1.5)
-  - CoreStore (~> 9.2.0)
-  - IQKeyboardManagerSwift (~> 6.5.16)
-  - KeychainSwift (~> 20.0.0)
-  - lottie-ios (~> 4.3.3)
-  - ReachabilitySwift (~> 5.0.0)
-  - SkyFloatingLabelTextField (~> 4.0.0)
-  - SwiftLint (~> 0.54)
-  - SwiftyJSON (~> 5.0.0)
-  - VersionTrackerSwift (~> 3.0.0)
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
+  - "CapacitorCommunityBarcodeScanner (from `../../node_modules/@capacitor-community/barcode-scanner`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
+  - "CapacitorNetwork (from `../../node_modules/@capacitor/network`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
+  - "CapacitorStorage (from `../../node_modules/@capacitor/storage`)"
 
-SPEC REPOS:
-  trunk:
-    - Alamofire
-    - AlamofireImage
-    - AppCenter
-    - ArcGIS-Runtime-SDK-iOS
-    - AzureNotificationHubs-iOS
-    - CoreStore
-    - IQKeyboardManagerSwift
-    - KeychainSwift
-    - lottie-ios
-    - ReachabilitySwift
-    - SkyFloatingLabelTextField
-    - SwiftLint
-    - SwiftyJSON
-    - VersionTrackerSwift
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCamera:
+    :path: "../../node_modules/@capacitor/camera"
+  CapacitorCommunityBarcodeScanner:
+    :path: "../../node_modules/@capacitor-community/barcode-scanner"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorGeolocation:
+    :path: "../../node_modules/@capacitor/geolocation"
+  CapacitorNetwork:
+    :path: "../../node_modules/@capacitor/network"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
+  CapacitorStorage:
+    :path: "../../node_modules/@capacitor/storage"
 
 SPEC CHECKSUMS:
-  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
-  AlamofireImage: 843953fa97bee5f561cf05d83abd759e590b068d
-  AppCenter: 85c92db0759d2792a65eb61d6842d2e86611a49a
-  ArcGIS-Runtime-SDK-iOS: 3e3f7480fe2a3b0c094ed57977cab1482e81ec6f
-  AzureNotificationHubs-iOS: e5de62f44d7915a5cc3c5194ddc57cf2ee78873e
-  CoreStore: 6e7e2010ce7b8ad9cf7348c650020c3d7ea0afb2
-  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
-  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
-  lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
-  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
-  SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  VersionTrackerSwift: 1c7577058ef97424397551927473c4933d99f7df
+  Capacitor: ebfc16cdb8116d04c101686b080342872da42d43
+  CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
+  CapacitorCamera: 4892c5c392f60039d853dde78bc50ba19fbd113e
+  CapacitorCommunityBarcodeScanner: 7feb206489c8555a8ca0c74c57ddf49ead774eb8
+  CapacitorCordova: 931b48fcdbc9bc985fc2f16cec9f77c794a27729
+  CapacitorDevice: 2c968f98a1ec4d22357418c1521e7ddc46c675e6
+  CapacitorGeolocation: 7be5f77abc205c0efe319fff8587a7183e7b0240
+  CapacitorNetwork: d80b3e79bef6ec37640ee2806c19771f07ff2d0c
+  CapacitorSplashScreen: dd3de3f3644710fa2a697cfb91ec262eece4d242
+  CapacitorStorage: 63255170c2f7e9f7363b3e5e015584e6d18f2969
 
-PODFILE CHECKSUM: 402998efae9282fa25715d1f9c12f09efd83e3bc
+PODFILE CHECKSUM: 3cb667c8f5daf6c0acf5eb199c280625062b7981
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.10.1

@@ -1,6 +1,0 @@
-framework module Pods_GCIUITests {
-  umbrella header "Pods-GCIUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

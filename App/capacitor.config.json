@@ -1,0 +1,16 @@
+{
+  "appId": "fr.citegestion.musemobile.pf.gmao",
+  "appName": "muse-mobile-capacitor",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "android": {},
+  "server": {
+    "hostname": "dev.musesoftware.citegestion.fr",
+    "androidScheme": "https"
+  }
+}
